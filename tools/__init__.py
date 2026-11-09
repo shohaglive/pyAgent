@@ -1,0 +1,10 @@
+from .db_tools import DB_TOOLS_DEFINITION, DB_TOOL_ROUTER
+from .calendar_tools import CALENDAR_TOOLS_DEFINITION, CALENDAR_TOOL_ROUTER
+
+# Combine all tool schemas into a single catalog
+ALL_TOOLS_DEFINITION = DB_TOOLS_DEFINITION + CALENDAR_TOOLS_DEFINITION
+
+# Combine all execution routers
+ALL_TOOL_ROUTER = {**DB_TOOL_ROUTER, **CALENDAR_TOOL_ROUTER}
+
+__all__ = ["ALL_TOOLS_DEFINITION", "ALL_TOOL_ROUTER"]

@@ -1,0 +1,18 @@
+[
+  {
+    "order_id": "ORD-12345",
+    "customer_id": "CUST-001",
+    "status": 0,
+    "carrier": "DHL",
+    "eta": "3 days",
+    "notification_sent": 0
+  },
+  {
+    "order_id": "ORD-12346",
+    "customer_id": "CUST-002",
+    "status": 1,
+    "carrier": "Hermes",
+    "eta": "1 day",
+    "notification_sent": 0
+  }
+]
